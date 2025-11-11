@@ -11,3 +11,12 @@ cd casia
 pnpm install
 ...
 ```
+
+## Troubleshooting
+
+- With `pnpm` >= 10.x, to git rid of the warnings, change `.npmrc`
+
+```
+#node-linker=hoisted
+#auto-install-peers=true
+```
